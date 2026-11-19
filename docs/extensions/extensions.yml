@@ -253,7 +253,7 @@
 
 - name: "[Orble Sandbox](https://github.com/lxe/orble-inspect)"
   description: |
-    Runs each sample in its own Orble box, a Firecracker VM, deleted when the sample ends. Tasks with a compose.yaml or Dockerfile run unchanged with Docker inside the box, or start in about a second from a snapshot built from the Dockerfile.
+    Runs each sample in its own Orble box, a Linux VM, deleted when the sample ends. Tasks with a compose.yaml or Dockerfile run unchanged with Docker inside the box, or start in about a second from a snapshot built from the Dockerfile.
   author: "[Orble](https://orble.tech/?ref=inspect_ai)"
   categories: ["Sandboxes"]
 
